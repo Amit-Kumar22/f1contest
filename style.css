@@ -57,6 +57,7 @@ body {
 
 .image img{
     width: 100%;
+    height: 600px;
 }
 
 .cravings>h1 {
@@ -90,7 +91,9 @@ body {
 
 .sect-1-child {
     display: flex;
-    margin: auto;
+   justify-content: space-evenly;
+   justify-content: center;
+   align-items: center;
     flex-wrap: row wrap;
     padding-top: 30px;
     gap: 30px;
@@ -98,6 +101,7 @@ body {
 
 .sect-1-child>img {
     max-width: 50%;
+    height: 300px;
 }
 
 .sect-1-child>p {
